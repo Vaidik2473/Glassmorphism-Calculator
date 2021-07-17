@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" data-tilt data-tilt-max="5" data-tilt data-tilt-glare="true" data-tilt-max-glare="0.3" data-tilt-speed="400"
+       data-tilt--scale="1.1" data-tilt-max="10" data-tilt-perspective="500">
+        <form class="calculator" name="calc">
+            <input type="text" name="txt" readonly class="value">
+            <span class="num clear" onclick="calc.txt.value=''">C</span>
+            <span class="num" onclick="document.calc.txt.value+='/'">/</span>
+            <span class="num" onclick="document.calc.txt.value+='*'">X</span>
+            <span class="num" onclick="document.calc.txt.value+='7'">7</span>
+            <span class="num" onclick="document.calc.txt.value+='8'">8</span>
+            <span class="num" onclick="document.calc.txt.value+='9'">9</span>
+            <span class="num" onclick="document.calc.txt.value+='-'">_</span>
+            <span class="num" onclick="document.calc.txt.value+='4'">4</span>
+            <span class="num" onclick="document.calc.txt.value+='5'">5</span>
+            <span class="num" onclick="document.calc.txt.value+='6'">6</span>
+            <span class="num plus" onclick="document.calc.txt.value+='+'">+</span>
+            <span class="num" onclick="document.calc.txt.value+='1'">1</span>
+            <span class="num" onclick="document.calc.txt.value+='2'">2</span>
+            <span class="num" onclick="document.calc.txt.value+='3'">3</span>
+            <span class="num" onclick="document.calc.txt.value+='0'">0</span>
+            <span class="num" onclick="document.calc.txt.value+='00'">00</span>
+            <span class="num" onclick="document.calc.txt.value+='.'">.</span>
+            <span class="num" onclick="document.calc.txt.value=eval(calc.txt.value)">=</span>
+
+        </form>
+    </div>
+    <h1 class="poppin">Made by - Savaliya Vaidik</h1>
+
+
+</body>
+</html>    
